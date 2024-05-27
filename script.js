@@ -81,7 +81,8 @@ const locations = [
         "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
         "button functions": [restart, restart, restart],
         text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;"
-    }
+    },
+
 ];
 
 // initialize buttons
@@ -250,7 +251,13 @@ function easterEgg() {
     update(locations[7]);
 }
 
+function pickTwo() {
+    pick(2);
+}
 
+function pickEight() {
+    pick(8);
+}
 
 function pick(guess) {
 
