@@ -38,7 +38,7 @@ const monsters = [
         level: 20,
         health: 300
     }
-];
+]
 const locations = [
     {
         name: "town square",
@@ -131,7 +131,8 @@ function sellWeapon() {
 }
 
 function fightSlime() {
-
+    fighting = 0;
+    goFight();
 }
 
 function fightBeast() {
@@ -140,4 +141,8 @@ function fightBeast() {
 
 function fightDragon() {
     console.log("Fighting dragon.");
+}
+
+function goFight() {
+
 }
